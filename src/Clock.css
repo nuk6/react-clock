@@ -1,0 +1,78 @@
+#clockBackground{
+    background: linear-gradient(to right, hsla(83, 92%, 51%, 0.747), hsl(286, 82%, 47%), hsla(0, 95%, 58%, 0.712));
+    color: #333333;
+    height: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+}
+#theClock{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+#theClock .time{
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+#time1{transform: rotate(30deg);}
+#time2{transform: rotate(60deg);}
+#time3{transform: rotate(90deg);}
+#time4{transform: rotate(120deg);}
+#time5{transform: rotate(150deg);}
+#time6{transform: rotate(180deg);}
+#time7{transform: rotate(210deg);}
+#time8{transform: rotate(240deg);}
+#time9{transform: rotate(270deg);}
+#time10{transform: rotate(300deg);}
+#time11{transform: rotate(330deg);}
+
+.hand{
+    position: absolute;
+    transform-origin: bottom;
+    left: 245px;
+    top : 50px;
+}
+
+#secondHand{
+    width: 6px;
+    height: 200px;
+    background-color: #333333;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#minuteHand{
+    width: 10px;
+    height: 200px;
+    background-color: #333333;
+    transform: rotate(30deg);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;    
+}
+#hourHand{
+    width: 14px;
+    height: 140px;
+    background-color: #333333;
+    top: 110px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; 
+    transform: rotate(180deg);
+}
+
+#dot{
+    width: 30px;
+    height: 30px;
+    left: 236px;
+    top: 230px;
+    background-color: #333333;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
